@@ -1,0 +1,64 @@
+@media only screen and (min-width = 768px) {
+  .home .block-home{
+    display: inline-table !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 827px) {
+  #ruby-menu{
+      text-align: center;
+  }
+  menu{
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #ourteam2 .col-sx-12{
+    width: 90% !important;
+  }
+  #contact2 .col-md-5{
+    padding-top: 5% !important;
+  }
+  #ourteam .col-md-3{
+    width: 90%;
+    margin-left: 9%;
+  }
+  #ourservices .col-md-4{
+    width: 90% !important;
+  }
+  .services-line{
+    border-bottom: 1px solid black !important;
+  }
+  #blog .row3{
+    margin-left: 6% !important;
+  }
+  #footer{
+   font-size: 70%; 
+  }
+  #textwc{
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 767px) {
+  #pricing #row{
+    width: 80% !important;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  #contact #row i{
+    padding-top: 5%;
+  }
+  #contact .col-md-3{
+    width: 90% !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+  .block-home{
+   display: inline-flex !important; 
+  }
+}
+@media only screen and (min-width: 650px) and (max-width: 767px) {
+  .teambao{
+    width: 80% !important;
+  }
+}

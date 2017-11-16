@@ -1,0 +1,7 @@
+#carousel-id:hover .hv-home{
+  color: red !important;
+}
+#ourhome:hover .hv-home{
+  border: 1px solid;
+  background-color: red !important;
+}

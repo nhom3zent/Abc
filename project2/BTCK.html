@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="btck.css">
+	<link rel="stylesheet" type="text/css" href="css/ourteam.css">
+	<link rel="stylesheet" type="text/css" href="css/services.css">
+	<link rel="stylesheet" type="text/css" href="css/client.css">
+	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+	<link rel="stylesheet" type="text/css" href="css/blog.css">
+	<link rel="stylesheet" type="text/css" href="css/pricing.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<link rel="stylesheet" type="text/css" href="css/hover.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/responsive.css"> -->
+
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<style type="text/css" media="screen">
+	
+	</style>
+    <script> 
+    $(document).ready(function(){   
+	     new WOW().init();
+
+	});
+    </script>
+</head>
+<body data-spy="scroll">
+	<nav class="navbar navbar-fixed-top navbar-default width767" role="navigation">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" id="menu1" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div id="ruby-menu"><a class="navbar-brand ruby wow zoomOutRight" data-wow-iteration="2" href="#">Jewelry-Ruby  <i class="fa fa-diamond" aria-hidden="true"></i></a></div>
+			</div>
+	
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse" id="menu">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="hv-home"><a data-wow-delay="1.5s" class=" wow zoomIn" href="#">HOME</a></li>	
+					<li class="hv-us"><a data-wow-iteration="2" class=" wow zoomIn"  href="#ourhome">ABOUT US</a></li>				
+					<li class="hv-team"><a data-wow-delay="1.5s" class=" wow zoomIn" href="#ourteam">OUR TEAM</a></li>					
+					<li class="hv-servi"><a data-wow-iteration="2" class=" wow zoomIn" href="#ourservices">SERVICES</a></li>				
+					<li class="hv-client"><a data-wow-delay="1.5s" class=" wow zoomIn" href="#client">TESTIMONIALS</a></li>				
+					<li class="hv-portf"><a data-wow-iteration="2" class=" wow zoomIn" href="#ourportfolio">PORTFOLIO</a></li>			
+					<li class="hv-contact"><a data-wow-delay="1.5s" class=" wow zoomIn" href="#contact">CONTACT US</a></li>					
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div id="carousel-id" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-id" data-slide-to="0" class=""></li>
+			<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+			<li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="item">
+				<img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" style="width:100%; height: 100%;"  src="images/ts5.jpg">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1 class="wow fadeInLeft">Example headline.</h1>
+						<p class="wow fadeInRight">Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+						<p class="wow shake"><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" style="width:100%; height: 100%;"  src="images/ts1.jpg">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1 class="wow fadeInLeft">Another example headline.</h1>
+						<p class="wow fadeInRight">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						<p class="wow shake"><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="item active">
+				<img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" style="width:100%; height: 100%;" src="images/ts3.png">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1 class="wow fadeInLeftBig">One more for good measure.</h1>
+						<p class="wow fadeInRight">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						<p  class="wow shake"><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+		<a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+	</div>
+	<div class="home" id="ourhome">
+		<h3  data-wow-delay="1s" data-wow-iteration="2" class="wow flipInX">WELCOME TO <span>JEWELRY-RUBY</span></h3>
+		<div  class="wow fadeOutDown" id="hr" style="text-align: center">
+			<hr style="width: 40%">
+			<i class="fa fa-star-half-o" id="iconhome" aria-hidden="true"></i>
+			<i class="fa fa-star-half-o" id="iconhome" aria-hidden="true"></i>
+			<i class="fa fa-star-half-o" id="iconhome" aria-hidden="true"></i>
+			<i class="fa fa-star-half-o" id="iconhome" aria-hidden="true"></i>
+			<i class="fa fa-star-half-o" id="iconhome" aria-hidden="true"></i>
+			<hr style="width: 40%">
+		</div>
+		<p   class="wow fadeOutUp">Lorim ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh <br> euismod tincidunt ut laoteet dolore magna aliquam erat volutpat.</p>
+	
+		<div id="container">
+			<div id="row" class="block-home">
+				<div id="welcome" class="col-md-6 col-sm-6 col-xs-6">
+					<div id="khungwc"></div>
+					<img class="wow fadeInLeft" style="width:100%; height:100%" src="images/welcome-img.jpg">
+				</div>
+				<div id="textwc" class="col-md-6 col-sm-6 col-xs-6">
+					<p class="wow fadeInRight">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exercitation ulliam corper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+					<button class="wow fadeInRight" type="button" class="btn btn-primary">READ MORE</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<div id="ourteam">
+		<h3  data-wow-offset="200" class="wow bounceInDown">OUR <span>TEAM</span></h3>
+			<hr style="width: 40%">
+		<i class="fa fa-star-half-o wow bounce" id="iconhome" aria-hidden="true"></i>
+		<i data-wow-delay="1s" class="fa fa-star-half-o wow bounce" id="iconhome" aria-hidden="true"></i>
+		<i class="fa fa-star-half-o wow bounce" id="iconhome" aria-hidden="true"></i>
+		<i data-wow-delay="1s" class="fa fa-star-half-o wow bounce" id="iconhome" aria-hidden="true"></i>
+		<i class="fa fa-star-half-o wow bounce" id="iconhome" aria-hidden="true"></i>
+			<hr style="width: 40%">
+		<div id="container">
+			<div   class="wow swing  wHighlight" id="row">
+				<div class="col-md-3 col-sm-6 col-xs-6" id="team-hover-1">
+					<div class="teambao">
+						<div id="teamimg"><img src="images/out-team1.jpg" alt=""></div>
+						<div id="ourteam-fog1" class="ourteam-fog">
+							<h3>Hello & Welcome</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<i class="fa fa-facebook-official" aria-hidden="true"></i>
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</div>
+					</div>
+						<p>ROBIN WILLIAMS</p>
+						<span>FOUNDER</span>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6" id="team-hover-2" >
+					<div class="teambao">
+						<div id="teamimg"><img src="images/out-team2.jpg" alt=""></div>
+						<div id="ourteam-fog2" class="ourteam-fog">
+							<h3>Hello & Welcome</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<i class="fa fa-facebook-official" aria-hidden="true"></i>
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</div>
+					</div>
+						<p>ROBIN WILLIAMS</p>
+						<span>FOUNDER</span>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6" id="team-hover-3">
+					<div class="teambao">
+						<div id="teamimg"><img src="images/out-team3.jpg" alt=""></div>
+						<div id="ourteam-fog3" class="ourteam-fog">
+							<h3>Hello & Welcome</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<i class="fa fa-facebook-official" aria-hidden="true"></i>
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</div>
+					</div>
+						<p>ROBIN WILLIAMS</p>
+						<span>FOUNDER</span>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6" id="team-hover-4" >
+					<div class="teambao">
+						<div id="teamimg"><img src="images/out-team4.jpg" alt=""></div>
+						<div id="ourteam-fog4" class="ourteam-fog">
+							<h3>Hello & Welcome</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<i class="fa fa-facebook-official" aria-hidden="true"></i>
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</div>
+					</div>
+						<p>ROBIN WILLIAMS</p>
+						<span>FOUNDER</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<div id="ourteam1">	
+		<div id="ourteam2" class="wow flipOutX">
+			<div id="container">
+				<div id="row"  class="wow bounceOut" >
+					<div  class="col-md-3 col-sm-3 col-sx-12 " id="our-item-1">
+						<i class="fa fa-clock-o" aria-hidden="true"></i>
+						<p id="asd">1234</p>
+						<span>Hours of work</span>
+					</div>
+					<div class="col-md-3 col-sm-3 col-sx-12 " id="our-item-2">
+						<i class="fa fa-users" aria-hidden="true"></i>
+						<p>123</p>
+						<span>Satisfied client</span>
+					</div>
+					<div class="col-md-3 col-sm-3 col-sx-12" id="our-item-3">
+						<i class="fa fa-check" aria-hidden="true"></i>
+						<p>910</p>
+						<span>Hours of work</span>
+					</div>
+					<div class="col-md-3 col-sm-3 col-sx-12" id="our-item-4">
+						<i class="fa fa-trophy" aria-hidden="true"></i>
+						<p>96</p>
+						<span>Hours of work</span>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>	
+	<div id="ourservices">
+		<p class="wow rubberBand">OUR <span>SERVICES</span></p>
+			<hr style="width: 40%">
+		<i class="fa fa-star-half-o wow bounce" id="iconhome" aria-hidden="true"></i>
+		<i data-wow-delay="1s" class="fa fa-star-half-o wow bounce" id="iconhome" aria-hidden="true"></i>
+		<i class="fa fa-star-half-o wow bounce" id="iconhome" aria-hidden="true"></i>
+		<i data-wow-delay="1s" class="fa fa-star-half-o wow bounce" id="iconhome" aria-hidden="true"></i>
+		<i class="fa fa-star-half-o wow bounce" id="iconhome" aria-hidden="true"></i>
+		<hr style="width: 40%">
+		<div id="container">
+			<div id="row" class="wow rotateInDownLeft clearfix">
+				<div class="col-md-4 col-sm-4 col-sx-12 our-html">
+					<i class="fa fa-usd" aria-hidden="true"></i>
+					<p>USD</p>
+					<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+				</div>
+				<div class="col-md-4 col-sm-4 col-sx-12">
+					<i class="fa fa-diamond" aria-hidden="true"></i>
+					<p>Diamond</p>
+					<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+				</div>
+				<div class="col-md-4 col-sm-4 col-sx-12">
+					<i class="fa fa-globe" aria-hidden="true"></i>
+					<p>World</p>
+					<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+				</div>
+			
+				<div  class="col-md-4 col-sm-4 col-sx-12 our-html services-line">
+					<i class="fa fa-diamond" aria-hidden="true"></i>
+					<p>Ruby</p>
+					<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+				</div>
+				<div class="col-md-4 col-sm-4 col-sx-12 services-line">
+					<i class="fa fa-gavel" aria-hidden="true"></i>
+					<p>Quazit</p>
+					<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+				</div>
+				<div class="col-md-4 col-sm-4 col-sx-12 services-line">
+					<i class="fa fa-money" aria-hidden="true"></i>
+					<p>Gold</p>
+					<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div id="clearfix"></div>
+	<div id="client">
+		<div id="client1">
+			<p class="wow fadeOutUpBig">CLIENT <span>TESTIMONIALS</span></p>
+			<hr style="width: 40%">
+			<i data-wow-delay="1s" class="fa fa-star-half-o wow bounce" id="iconhome" aria-hidden="true"></i>
+			<i class="fa fa-star-half-o wow bounce" id="iconhome" aria-hidden="true"></i>
+			<i data-wow-delay="1s" class="fa fa-star-half-o wow bounce" id="iconhome" aria-hidden="true"></i>
+			<i class="fa fa-star-half-o wow bounce" id="iconhome" aria-hidden="true"></i>
+			<i data-wow-delay="1s" class="fa fa-star-half-o wow bounce" id="iconhome" aria-hidden="true"></i>
+			<hr style="width: 40%">
+		</div>	
+		<div class="container">
+			<div id="row">
+				<div class="col-md-8 col-md-offset-2 wow rotateIn">
+					<div id="client-qualaity">
+						<p>Qualaity Support</p>
+						<div>
+						<i data-wow-delay="1.5s" class="fa fa-star wow bounce" aria-hidden="true"></i>
+						<i data-wow-delay="2s" class="fa fa-star wow bounce" aria-hidden="true"></i>
+						<i data-wow-delay="2.5s" class="fa fa-star wow bounce" aria-hidden="true"></i>
+						<i data-wow-delay="3s" class="fa fa-star wow bounce" aria-hidden="true"></i>
+						<i data-wow-delay="3.5s" class="fa fa-star wow bounce" aria-hidden="true"></i></div>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<div id="client-icon">
+						<img src="images/testimonials2.png" alt="" id="client-img">
+						<p> <span>Michal Marek</span> <br>
+						Sale Manager</p>
+						<i class="fa fa-snowflake-o" aria-hidden="true"></i>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<div id="ourportfolio">
+		<div id="textour" class="text-center">
+			<p class="wow fadeOutDownBig">OUR <span>PORTFOLIO</span></p>
+			<hr style="width: 40%">
+			<i data-wow-delay="1.5s" class="fa fa-star-half-o wow bounce" id="iconhome" aria-hidden="true"></i>
+			<i data-wow-delay="2s" class="fa fa-star-half-o wow bounce" id="iconhome" aria-hidden="true"></i>
+			<i data-wow-delay="2.5s" class="fa fa-star-half-o wow bounce" id="iconhome" aria-hidden="true"></i>
+			<i data-wow-delay="3s" class="fa fa-star-half-o wow bounce" id="iconhome" aria-hidden="true"></i>
+			<i data-wow-delay="3.5s" class="fa fa-star-half-o wow bounce" id="iconhome" aria-hidden="true"></i>
+			<hr style="width: 40%">
+			<ul class="wow bounceInDown">
+				<li><a data-wow-delay="1.5s" class="wow rubberBand all" href="#ourportfolio" data-filter="*">ALL</a></li>
+				<li><a data-wow-delay="2s" class="wow rubberBand diamond-img" href="#ourportfolio" data-filter=".diamond">DIAMOND</a></li>
+				<li><a data-wow-delay="2.5s" class="wow rubberBand ruby-img" href="#ourportfolio" data-filter=".rubi">RUBY</a></li>
+				<li><a data-wow-delay="3s" class="wow rubberBand quazit-img" href="#ourportfolio" data-filter=".quazit">QUAZIT</a></li>
+				<li><a data-wow-delay="3.5s" class="wow rubberBand gold-img" href="#ourportfolio" data-filter=".gold">GOLD</a></li>
+				<li><a data-wow-delay="4s" class="wow rubberBand silver-img" href="#ourportfolio" data-filter=".silver">SILVER</a></li>
+			</ul>
+		</div>
+		<div class="container isotope" >
+				<div class="col-md-4 col-sm-6 col-md-offset-0 col-xs-12  diamond portfolio-img">
+	                <div class="effect6">
+	                    <a href="#">
+	                    	<div class="img "><img src="images/hs1.png" alt="img" class="img-responsive"></div>
+	                    </a>
+	                    <div class="info">
+	                            <h3>Heading here</h3>
+	                            <p>Description goes here</p>
+	                        </div>
+	                </div>
+           		</div>
+				<div class="col-md-4 col-sm-6 col-md-offset-0 col-xs-12 rubi portfolio-img">
+	                <div class="effect6">
+	                    <a href="#">
+	                        <div class="img"><img src="images/hs2.png" alt="img" class="img-responsive"></div>
+	                        <div class="info">
+	                            <h3>Heading here</h3>
+	                            <p>Description goes here</p>
+	                        </div>
+	                    </a>
+	                </div>
+           		</div>
+				<div class="col-md-4 col-sm-6 col-md-offset-0  col-xs-12 quazit gold portfolio-img">
+	                <div class="effect6">
+	                    <a href="#">
+	                        <div class="img"><img src="images/hs3.png" alt="img" class="img-responsive"></div>
+	                        <div class="info">
+	                            <h3>Heading here</h3>
+	                            <p>Description goes here</p>
+	                        </div>
+	                    </a>
+	                </div>
+           		</div>
+				<div class="col-md-4 col-sm-6 col-md-offset-0  col-xs-12  gold silver portfolio-img">
+	                <div class="effect6">
+	                    <a href="#">
+	                        <div class="img"><img src="images/hs4.png" alt="img" class="img-responsive"></div>
+	                        <div class="info">
+	                            <h3>Heading here</h3>
+	                            <p>Description goes here</p>
+	                        </div>
+	                    </a>
+	                </div>
+           		</div>
+				<div class="col-md-4 col-sm-6 col-md-offset-0 col-xs-12  silver rubi portfolio-img">
+	                <div class="effect6">
+	                    <a href="#">
+	                        <div class="img"><img src="images/hs5.png" alt="img" class="img-responsive"></div>
+	                        <div class="info">
+	                            <h3>Heading here</h3>
+	                            <p>Description goes here</p>
+	                        </div>
+	                    </a>
+	                </div>
+           		</div>
+				<div class="col-md-4 col-sm-6 col-md-offset-0  col-xs-12  diamond quazit portfolio-img">
+	                <div class="effect6">
+	                    <a href="#">
+	                        <div class="img"><img src="images/hs6.png" alt="img" class="img-responsive"></div>
+	                        <div class="info">
+	                            <h3>Heading here</h3>
+	                            <p>Description goes here</p>
+	                        </div>
+	                    </a>
+	                </div>
+           		</div>
+           	
+				<div class="col-md-4 col-sm-6 col-md-offset-0  col-xs-12 rubi gold portfolio-img">
+	                <div class="effect6">
+	                    <a href="#">
+	                        <div class="img"><img src="images/hs1.png" alt="img" class="img-responsive"></div>
+	                        <div class="info">
+	                            <h3>Heading here</h3>
+	                            <p>Description goes here</p>
+	                        </div>
+	                    </a>
+	                </div>
+           		</div>
+				<div class="col-md-4 col-sm-6 col-md-offset-0  col-xs-12  quazit diamond portfolio-img">
+	                <div class="effect6">
+	                    <a href="#">
+	                        <div class="img"><img src="images/hs2.png" alt="img" class="img-responsive"></div>
+	                        <div class="info">
+	                            <h3>Heading here</h3>
+	                            <p>Description goes here</p>
+	                        </div>
+	                    </a>
+	                </div>
+           		</div>
+				<div class="col-md-4 col-sm-6 col-md-offset-0  col-xs-12  gold silver portfolio-img">
+	                <div class="effect6">
+	                    <a href="#">
+	                        <div class="img"><img src="images/hs3.png" alt="img" class="img-responsive"></div>
+	                        <div class="info">
+	                            <h3>Heading here</h3>
+	                            <p>Description goes here</p>
+	                        </div>
+	                    </a>
+	                </div>
+           		</div>
+			</div>
+			
+			<div id="lightbox">
+				<div id="font"></div>
+				<i class="fa fa-times" aria-hidden="true"></i>
+				<div id="imglb"><img src="images/hs3.png" alt=""></div>
+			</div>
+
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<div id="blog">
+		<div class="text-center">
+			<p class="wow fadeOutUp">OUR <span>BLOG</span></p>
+			<hr style="width: 40%">
+			<i data-wow-delay="1s" class="fa fa-star-half-o wow fadeOutDown" id="iconhome" aria-hidden="true"></i>
+			<i data-wow-delay="1.5s" class="fa fa-star-half-o wow fadeOutDown" id="iconhome" aria-hidden="true"></i>
+			<i data-wow-delay="2s" class="fa fa-star-half-o wow fadeOutDown" id="iconhome" aria-hidden="true"></i>
+			<i data-wow-delay="2.5s" class="fa fa-star-half-o wow fadeOutDown" id="iconhome" aria-hidden="true"></i>
+			<i data-wow-delay="3s" class="fa fa-star-half-o wow fadeOutDown" id="iconhome" aria-hidden="true"></i>
+			<hr style="width: 40%">
+		</div>
+		<div id="container">
+			<div id="row">
+				<div class="col-md-5 col-md-offset-1  wow rotateIn">
+					<a href="">
+						<div class="row1 hvrow1">
+							<img src="images/blog-img1.jpg" alt="">
+							<p class="jan">12 <br>Jan</p>
+						</div>
+						<div class="row2">
+							<p class="title1">This is Blog Title</p>
+							<p class="title2">Web Disign Graphic Déign</p>
+							<p class="tittle3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p>Read More...</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-5 col-md-offset-1 row3 wow rotateIn">
+					<a href="">
+						<div class="row1 hvrow2">
+							<img src="images/blog-img2.jpg" alt="">
+							<p class="jan">12 <br>Jan</p>
+						</div>
+						<div class="row2">
+							<p class="title1">This is Blog Title</p>
+							<p class="title2">Web Disign Graphic Déign</p>
+							<p class="tittle3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p>Read More...</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div id="clearfix"></div>
+	<div id="pricing">
+		<p class="wow fadeOutDown">OUR <span>PRICING</span></p>
+		<hr style="width: 40%">
+		<i class="fa fa-star-half-o wow lightSpeedIn" id="iconhome" aria-hidden="true"></i>
+		<i class="fa fa-star-half-o wow lightSpeedIn" id="iconhome" aria-hidden="true"></i>
+		<i class="fa fa-star-half-o wow lightSpeedIn" id="iconhome" aria-hidden="true"></i>
+		<i class="fa fa-star-half-o wow lightSpeedIn" id="iconhome" aria-hidden="true"></i>
+		<i class="fa fa-star-half-o wow lightSpeedIn" id="iconhome" aria-hidden="true"></i>	
+		<hr style="width: 40%">	
+		<div id="container">
+			<div id="row">
+				<div class="col-md-3 col-sm-3 col-sx-4 pricing-class wow zoomIn">
+					<span>Basic</span>
+					<div id="all-taxes">
+						<p>$ <span>99</span></p>
+						<p>All Taxes</p>
+					</div>
+					<p><b>Full</b> Access</p>
+					<p>Source Files</p>
+					<p><b>Unlimited</b> User</p>
+					<p><b>150</b> Domains</p>
+					<p><b>430 Email</b> Accounts</p>
+					<p>Automatic Cloud Backups</p>
+					<input type="button" value="BUY NOW">
+				</div>	
+				<div class="col-md-3 col-sm-3 col-sx-4  pricing-class wow zoomIn">
+					<span>Basic</span>
+					<div id="all-taxes">
+						<p>$ <span>99</span></p>
+						<p>All Taxes</p>
+					</div>
+					<p><b>Full</b> Access</p>
+					<p>Source Files</p>
+					<p><b>Unlimited</b> User</p>
+					<p><b>150</b> Domains</p>
+					<p><b>430 Email</b> Accounts</p>
+					<p>Automatic Cloud Backups</p>
+					<input type="button" value="BUY NOW">
+				</div>	
+				<div class="col-md-3 col-sm-3 col-sx-4 pricing-class wow zoomIn">
+					<span>Basic</span>
+					<div id="all-taxes">
+						<p>$ <span>99</span></p>
+						<p>All Taxes</p>
+					</div>
+					<p><b>Full</b> Access</p>
+					<p>Source Files</p>
+					<p><b>Unlimited</b> User</p>
+					<p><b>150</b> Domains</p>
+					<p><b>430 Email</b> Accounts</p>
+					<p>Automatic Cloud Backups</p>
+					<input type="button" value="BUY NOW">
+				</div>							
+			</div>
+		</div>
+	</div>
+        <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+	<section id="map-location" class="wow flip"></section>
+        <script>
+            function initMap() {
+                var mapDiv = document.getElementById('map-location');
+                var mapLng = {lat: 21.003025, lng: 105.854622};
+                var map = new google.maps.Map(mapDiv, {
+                        center: mapLng,
+                        zoom: 18
+                });
+            
+                var marker = new google.maps.Marker({
+                          position: mapLng,
+                          map: map
+                                });
+            
+                map.setOptions({
+                    scrollwheel: false
+                });
+            }
+                    
+        </script>
+    <div class="clearfix"></div>
+	<div id="contact">
+		<h2 class="wow fadeOutUp">CONTACT <span>US</span></h2>
+		<hr style="width: 40%">
+		<i class="fa fa-star-half-o wow bounceInUp" id="iconhome" aria-hidden="true"></i>
+		<i class="fa fa-star-half-o wow bounceInUp" id="iconhome" aria-hidden="true"></i>
+		<i class="fa fa-star-half-o wow bounceInUp" id="iconhome" aria-hidden="true"></i>
+		<i class="fa fa-star-half-o wow bounceInUp" id="iconhome" aria-hidden="true"></i>
+		<i class="fa fa-star-half-o wow bounceInUp" id="iconhome" aria-hidden="true"></i>
+		<hr style="width: 40%">
+		<div id="container">
+			<div id="row">
+				<div class="col-md-3  col-sm-4 col-xs-12 wow zoomOutUp">
+					<i class="fa fa-envelope-o" aria-hidden="true"></i>
+					<p>OFFICE ADDRESS <br><small>210 Oak Street Building24 NewYord, USA</small></p>
+				</div>
+				<div class="col-md-3  col-sm-4  col-xs-12 wow zoomOutUp">
+					<i class="fa fa-envelope-o" aria-hidden="true"></i>
+					<p>OFFICE ADDRESS <br><small>210 Oak Street Building24 NewYord, USA</small></p>
+						
+				</div>
+				<div class="col-md-3 col-sm-4  col-xs-12 wow zoomOutUp">
+					<i class="fa fa-envelope-o" aria-hidden="true"></i>
+					<p>OFFICE ADDRESS <br><small>210 Oak Street Building24 NewYord, USA</small></p>
+				</div>				
+			</div>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<div id="contact2">
+			<div id="row">
+            <form id="contact-form" class="contact-content ">
+				<div class="col-md-3 col-md-offset-1 col-sm-12 col-xs-12 wow zoomOut">
+					<input class="form-control mail-field" required="required" type="text" name="name" placeholder="Your name ...">
+					<input class="form-control mail-field inputc" required="required" type="email" name="email" placeholder="Enter your email ...">
+					<input class="form-control mail-field inputc" required="required" type="text" name="name" placeholder="Subject...">
+				</div>
+				<div class="col-md-5 col-md-offset-1 col-sm-12 col-xs-12 wow zoomOut">
+					<textarea name="textarea" id="textarea" required="required" class="form-control" placeholder="Message ..."></textarea>
+					<button type="submit" id="btn"  class="btn btn-primary orange"><strong>SEND</strong></button>
+				</div>
+			</form>
+			</div>	
+	</div>
+	<div class="clearfix"></div>
+	<div id="footer" class="text-center" style="background: black">
+        <marquee behavior="alternate" scrollamount="3" style="background: #d5ecfa">
+            <p>Copyright &copy 2017 - <a href="#"><span style="color: #fc7700">Ta Dang Quang</span></a> | All Rights Reserved</p>
+        </marquee>
+        <!-- ==== end footer ==== -->
+    </div>
+</html>

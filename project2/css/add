@@ -1,0 +1,12 @@
+#index08{
+  border: 1px solid;
+}
+#add08{
+border: 1px solid;
+}
+#detail{
+  border: 1px solid;
+}
+#add{
+  border: 1px solid;
+}

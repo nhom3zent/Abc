@@ -1,0 +1,53 @@
+.navbar .fa-diamond{
+	font-size: 140%;
+	color: #3b5998;
+}
+#carousel-id>.carousel-inner>.item{
+	width: 100%;
+	height: 600px;
+}
+#carousel-id>.carousel-inner>.item>img{
+	width: 100%;
+	height: 100%;
+}
+#ruby-menu a{
+/* 	margin-left: 30%; */
+	color: #3b5998;
+}
+.container-fluid{
+	text-align: center;
+}
+#menu{
+	font-size: 90%;
+}
+.icon-bar{
+	background: red;
+}
+.home span{
+	color: #337ab7;
+}
+.home>h3{
+	text-align: center;
+}
+#hr{	
+	text-align: center;
+}
+.home>p{
+	text-align: center;
+}
+#welcome{
+/* 	border: 1px solid; */
+	margin-left: 10%;
+	width: 400px;
+}
+#khungwc{
+	border: 5px solid white;
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	margin: 6%;
+}
+#row{
+/* 	border: 1px solid; */
+	width: 100%;
+}

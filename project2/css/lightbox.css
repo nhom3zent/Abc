@@ -1,0 +1,23 @@
+.lightbox{
+	width:100%;
+	height: 800px;
+	position: relative;
+  display: none;
+}
+.font{
+	width:100%;
+	height:100%;
+	position:absolute;
+	background: gray;
+	opacity: 0.1;
+}
+.imglb{
+	position: absolute;
+  margin-top: 10%;
+  margin-left: 28%;
+}
+.fa-times{
+  position: absolute;
+  margin-left: 98%;
+  font-size: 200%;
+}

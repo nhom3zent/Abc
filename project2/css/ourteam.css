@@ -1,0 +1,134 @@
+#ourteam{
+	float: left;
+  text-align: center;
+	width: 100%;
+	height: auto;
+  margin-top: 50px;
+	clear: both;
+	padding-bottom: 3%;
+}
+#ourteam>h3>span{
+	color: #337ab7;
+}
+#ourteam>#container>#row{
+	margin-top: 50px;
+/* 	border: 1px solid; */
+	height: auto;
+/* 	position: relative; */
+	width: 100%;
+}
+#ourteam .teambao{
+	position: relative;
+	width: 100%;
+}
+#ourteam #teamimg{
+	width: 95%;
+}
+#ourteam img{
+	width: 100%;
+	
+}
+#ourteam .ourteam-fog{
+    position: absolute;
+  top: 0%;
+  left: 0%;
+	width: 95%;
+	padding-top: 10%;
+	font-size: 100%;
+  z-index: -1;
+	color: white;
+  text-align: center;
+}
+ #ourteam #team-hover-1:hover #ourteam-fog1{
+	height: 100%;
+	position: absolute;
+	 z-index: 2;
+	opacity: 0.6;
+	color: white;
+	background: black;
+}
+#ourteam #team-hover-2:hover #ourteam-fog2{
+	height: 100%;
+	position: absolute;
+	z-index: 2 !important;
+	opacity: 0.6;
+	color: white;
+	background: black;
+}
+#ourteam>#container>#row>#team-hover-3:hover #ourteam-fog3{
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+	opacity: 0.6;
+	color: white;
+	background: black;
+}
+#ourteam>#container>#row>#team-hover-4:hover #ourteam-fog4{
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+	opacity: 0.6;
+	color: white;
+	background: black;
+}
+
+.ourteam-fog>div{
+	text-align: center;
+	margin-top: 20%;
+}
+.ourteam-fog p{
+	width: 85%;
+	text-align: unset;
+	margin-left: 7%;
+}
+.ourteam-fog i{
+	font-size: 150%;
+}
+#ourteam1{
+	clear: both;
+/* 	border: 1px solid; */
+	width: 100%;
+	height: auto;
+}
+#ourteam1>#ourteam2{
+/* 	border: 1px solid; */
+	text-align: center;
+	width: 100%;
+/* 	height: 250px; */
+	background: url(../images/ts2.jpg) no-repeat center scroll;
+	clear: both;
+	background-size: cover;
+	padding-bottom: 3%;
+}
+#ourteam2>#container>#row>.col-md-3{
+	width: 20%;
+	height: auto;
+	padding-bottom: 3%;
+	margin-top: 4%;
+	margin-left: 4%;
+	background-color: rgba(0,0,0,0.6);
+	border-radius: 20px;
+	color: white;
+	padding-top: 3%;
+}
+#ourteam2>#container>#row{
+	width: 100%; 
+	display: inline-block;
+/* 	border: 1px solid; */
+/* 	margin-left: 10%; */
+}
+#ourteam2>#container>#row p{
+	font-size: 150%;
+	margin-top: 3%;
+}
+#ourteam2>#container>#row i{
+	font-size: 150%;
+}
+#ourteam2>#container>#row>.col-md-3:hover i{
+	delay: 4s;
+	transform: translateY(-20px);
+	-moz-transform: translateY(-20px);
+	-webkit-transform: translateY(-20px);
+	-o-transform: translateY(-20px);
+	-ms-transform: translateY(-20px);
+}
